@@ -1,0 +1,129 @@
+# Sound file list
+
+All performed by Colin Frank, recorded by Maria Sappho, University of Huddersfield, 2025.
+
+## `LONG/` (44 files)
+
+Long, resonant sounds.
+
+- `01_BassDrum.wav`
+- `01_TamTamSoft_Long.wav`
+- `01_TubularBells_C52_Long.wav`
+- `01_Vibraslap_metal.wav`
+- `02_BassDrum.wav`
+- `02_TamTamSoft_Long.wav`
+- `02_Vibraslap_wood_dull.wav`
+- `03_BassDrum.wav`
+- `03_TamTamScrapped.wav`
+- `03_TubularBells_C#53_long.wav`
+- `04_BassDrum.wav`
+- `05_Gong_E5_long.wav`
+- `05_TubularBells_D54_long.wav`
+- `07_Gong_D#5_long.wav`
+- `07_TubularBells_D#55_long.wav`
+- `08_TubularBells_D#55_long.wav`
+- `09_Gong_C#5_long.wav`
+- `09_TubularBells_E56_long.wav`
+- `10_TubularBells_e56_long.wav`
+- `11_Cymbal_Paste_Formula602_softStrike.wav`
+- `11_Gong_D5_Long.wav`
+- `11_TubularBells_F57_long.wav`
+- `13_Cymbal_Istanbul_Crash_Long.wav`
+- `13_Gong_B4_long.wav`
+- `13_TubularBells_F#58_long.wav`
+- `15_Cymbal_Istanbul_agop_crash_Long.wav`
+- `15_Gong_A4_long.wav`
+- `15_TubularBells_G59_long.wav`
+- `17_ClashCymbals.wav`
+- `17_Gong_G#4_long.wav`
+- `17_TubularBells_G#60_long.wav`
+- `19_Gong_G4_long.wav`
+- `19_TubularBells_A61_long.wav`
+- `21_Gong_F4_long.wav`
+- `21_TubularBells_A#62_long.wav`
+- `23_Gong_E4_long.wav`
+- `23_TubularBells_B63_long.wav`
+- `25_Gong_D#4_long.wav`
+- `25_TubularBells_C64_long.wav`
+- `27_Gong_D4_long.wav`
+- `28_BellTree_SweepLowHigh.wav`
+- `29_BellTree_SweepHighLow.wav`
+- `29_Gong_C#4_long.wav`
+- `31_Gong_C4_long.wav`
+
+## `SHORT/` (72 files)
+
+Short strikes.
+
+- `01_BellTree_Low.wav`
+- `01_TempleBlock_Lowest.wav`
+- `02_BellTree_Low.wav`
+- `02_TempleBlock_Low.wav`
+- `02_TubularBells_C52_short.wav`
+- `03_BellTree_Low.wav`
+- `03_TempleBlock_MedLow.wav`
+- `03_udu.wav`
+- `04_BellTree_Low.wav`
+- `04_TamtamScrapeShort.wav`
+- `04_TempleBlock_MedHigh.wav`
+- `04_TubularBells_C#53_short.wav`
+- `04_Udu.wav`
+- `05_BellTree_Low.wav`
+- `05_TablaHigh.wav`
+- `05_TempleBlock_High.wav`
+- `06_BellTree_Low.wav`
+- `06_Gong_E5_short.wav`
+- `06_TablaHigh.wav`
+- `06_TempleBlock_Highest.wav`
+- `06_TubularBells_D54_short.wav`
+- `07_BellTree_Low.wav`
+- `07_TablaHigh.wav`
+- `08_BellTree_Low.wav`
+- `08_Gong_D#5_short.wav`
+- `08_TablaLow.wav`
+- `09_BellTree_Mid.wav`
+- `09_tablaLow.wav`
+- `10_BellTree_Mid.wav`
+- `10_Gong_C#5_short.wav`
+- `10_TablaLow.wav`
+- `10_TubularBells_e56_short.wav`
+- `11_BellTree_Mid.wav`
+- `12_BellTree_Mid.wav`
+- `12_Cymbal_Paste_Formula602_bell.wav`
+- `12_Gong_D5_short.wav`
+- `12_TubularBells_F57_short.wav`
+- `13_BellTree_Mid.wav`
+- `14_BellTree_Mid.wav`
+- `14_Cymbal_Istanbul_Crash_bell.wav`
+- `14_Cymbal_Istanbul_Crash_short.wav`
+- `14_Gong_B4_short.wav`
+- `14_TubularBells_F#58_short.wav`
+- `15_BellTree_Mid.wav`
+- `16_BellTree_Mid.wav`
+- `16_Cymbal_Istanbul_agop_crash_bell.wav`
+- `16_Gong_A4_short.wav`
+- `16_TubularBells_G59_short.wav`
+- `17_BellTree_Mid.wav`
+- `18_BellTree_Mid.wav`
+- `18_Gong_G#4_short.wav`
+- `18_TubularBells_G#60_short.wav`
+- `19_BellTree_Mid.wav`
+- `20_BellTree_high.wav`
+- `20_Gong_G4_short.wav`
+- `20_TubularBells_A61_short.wav`
+- `21_BellTree_High.wav`
+- `22_BellTree_High.wav`
+- `22_Gong_F4_short.wav`
+- `22_TubularBells_A#62_short.wav`
+- `23_BellTree_High.wav`
+- `24_BellTree_High.wav`
+- `24_Gong_E4_short.wav`
+- `24_TubularBells_B63_short.wav`
+- `25_BellTree_High.wav`
+- `26_BellTree_High.wav`
+- `26_Gong_D#4_short.wav`
+- `26_TubularBells_C64_short.wav`
+- `27_BellTree_High.wav`
+- `28_Gong_D4_short.wav`
+- `30_Gong_C#4_short.wav`
+- `32_Gong_C4_short.wav`

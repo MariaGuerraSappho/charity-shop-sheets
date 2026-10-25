@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Dreams Made on Charity Shop Sheets: score</title>
+<style>
+  @page { size: A4; margin: 0; }
+  :root {
+    --ink: #2b2420;
+    --soft: #6e625a;
+    --accent: #b5563f;
+    --paper: #fbf8f3;
+    --rule: #d9cfc4;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    width: 210mm; height: 297mm; overflow: hidden;
+    background: var(--paper); color: var(--ink);
+    font-family: "Avenir Next", "Futura", sans-serif;
+    font-size: 8.6pt; line-height: 1.38;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .page { padding: 10mm 12mm 8mm; height: 297mm; display: flex; flex-direction: column; gap: 4mm; }
+  a { color: var(--ink); text-decoration: none; border-bottom: 0.5pt solid var(--accent); }
+
+  header { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 1.2pt solid var(--ink); padding-bottom: 3mm; }
+  h1 { font-family: "Rockwell", "Bodoni 72", serif; font-weight: 700; font-size: 27pt; line-height: 0.95; margin: 0; letter-spacing: -0.3pt; text-transform: uppercase; }
+  .sub { white-space: nowrap; text-align: right; font-size: 8.4pt; color: var(--soft); line-height: 1.45; }
+  .sub b { color: var(--ink); font-size: 11pt; font-weight: 600; }
+
+  figure { margin: 0; }
+  figure img { width: 100%; height: 100%; object-fit: cover; border-radius: 1.5mm; display: block; }
+  figcaption { font-size: 6.6pt; color: var(--soft); margin-top: 1mm; }
+  .hero img { height: 76mm; object-position: 50% 60%; }
+
+  .cols { display: grid; grid-template-columns: 1.08fr 1fr; gap: 7mm; flex: 1; min-height: 0; }
+
+  h2 { font-family: "Rockwell", serif; font-size: 10pt; text-transform: uppercase; letter-spacing: 0.8pt; margin: 0 0 1.8mm; color: var(--accent); }
+  section { margin-bottom: 4mm; }
+  .intro { font-size: 9.4pt; line-height: 1.42; }
+  .premiere { display: block; margin-top: 1.5mm; font-size: 7.6pt; color: var(--soft); }
+  ol.score { margin: 0; padding: 0; list-style: none; counter-reset: s; }
+  ol.score li { counter-increment: s; position: relative; padding-left: 7.5mm; margin-bottom: 2mm; font-size: 10pt; line-height: 1.34; }
+  ol.score li::before { content: counter(s); position: absolute; left: 0; top: -0.6pt; font-family: "Rockwell", serif; font-weight: 700; font-size: 12.5pt; color: var(--accent); }
+
+  .card { border: 0.6pt solid var(--rule); border-radius: 1.5mm; padding: 2mm 3mm; background: #fff; margin-bottom: 2mm; }
+  .card b { font-size: 8.8pt; }
+
+  .links { display: grid; grid-template-columns: 1fr 1fr; gap: 1.6mm 4mm; }
+  .links div span { display: block; margin-top: 0.9mm; color: var(--soft); font-size: 7pt; line-height: 1.25; }
+  .qrrow { display: flex; gap: 3mm; align-items: center; margin-top: 3mm; font-size: 7.4pt; color: var(--soft); }
+  .qrrow img { width: 21mm; display: block; }
+
+  .strip { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 3mm; }
+  .strip img { height: 30mm; }
+
+  footer span { white-space: nowrap; }
+  footer { border-top: 0.6pt solid var(--rule); padding-top: 2mm; font-size: 6.8pt; color: var(--soft); display: flex; justify-content: space-between; gap: 6mm; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <h1>Dreams Made on<br>Charity Shop Sheets</h1>
+    <div class="sub">
+      <b>Maria Sappho · 2025</b><br>
+      for many bodies and one 30-metre soft instrument<br>
+      percussion sounds performed by Colin Frank
+    </div>
+  </header>
+
+  <figure class="hero">
+    <img src="../build/images/performance-wide.jpg" alt="The audience shaking the tube together from their seats during a performance">
+    <figcaption>The audience plays the tube together from their seats. Photo: Brian Hartley, Still Motion Art</figcaption>
+  </figure>
+
+  <div class="cols">
+    <div>
+      <section class="intro">
+        One instrument that needs many bodies to play it, like a gamelan. A very long, very soft rope crocheted
+        from bed sheets found in charity shops, with a piezoelectric cable hidden inside that hears every
+        shake, tug and rustle. Nobody can play it alone.
+        <span class="premiere">Premiered November 2025 at the CCA, Glasgow (GIOfest XVII), as part of <i>Tonna Miann</i>.</span>
+      </section>
+      <section>
+        <h2>Instructions</h2>
+        <ol class="score">
+          <li>Lay the tube along the audience: across laps, along the rows, looped through the space.</li>
+          <li>It cannot be played alone. Invite everyone to pick up a piece of it.</li>
+          <li>Move together. Lift it, shake it, ripple it, pass a wave from one end to the other.</li>
+          <li>Listen through the tube. A single jolt rings out long. Many hands shaking scatter into short strikes.</li>
+          <li>When everyone becomes still, one last sound rings. Let it fade completely.</li>
+          <li>Begin again, or let go. The piece ends when the last person puts it down.</li>
+        </ol>
+      </section>
+    </div>
+
+    <div>
+      <section>
+        <h2>Two ways to present it</h2>
+        <div class="card"><b>Performance.</b> Movement triggers Colin Frank's gongs, bells and tam-tams through the Teensy box. Calm brings long sounds, busy brings short ones.</div>
+        <div class="card"><b>Installation.</b> Hang the tube in loops from the ceiling and simply amplify it through a guitar amp. No code, no samples. Drop in and play.</div>
+      </section>
+      <section>
+        <h2>Build your own</h2>
+        <div class="links">
+          <div><a href="https://github.com/MariaGuerraSappho/charity-shop-sheets/blob/main/build/02-crochet-tube.md">The crochet tube</a><span>cutting sheets, crocheting</span></div>
+          <div><a href="https://github.com/MariaGuerraSappho/charity-shop-sheets/blob/main/build/03-piezo-cable.md">The piezo cable</a><span>how it works, going wireless</span></div>
+          <div><a href="https://github.com/MariaGuerraSappho/charity-shop-sheets/blob/main/build/04-electronics-and-firmware.md">Electronics</a><span>Teensy, Audio Shield, SD card</span></div>
+          <div><a href="https://github.com/MariaGuerraSappho/charity-shop-sheets/blob/main/build/05-installation-version.md">Installation version</a><span>hanging and amplifying</span></div>
+          <div><a href="https://github.com/MariaGuerraSappho/charity-shop-sheets/tree/main/firmware">Code</a><span>upload and calibrate</span></div>
+          <div><a href="https://github.com/MariaGuerraSappho/charity-shop-sheets/tree/main/hardware/enclosure">The box</a><span>3D-print file</span></div>
+          <div><a href="https://github.com/MariaGuerraSappho/charity-shop-sheets/releases">The sounds</a><span>pick 32 long + 32 short</span></div>
+          <div><a href="https://github.com/MariaGuerraSappho/charity-shop-sheets/blob/main/build/01-parts-list.md">Parts list</a><span>everything you need</span></div>
+        </div>
+        <div class="qrrow">
+          <img src="repo-qr.png" alt="QR code linking to the repository">
+          <span>Everything you need to build and perform the piece is in the repository.</span>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="strip">
+    <figure><img src="../build/images/performance-shaking.jpg" alt="Audience members shaking the tube"><figcaption>In performance</figcaption></figure>
+    <figure><img src="../build/images/cutting-sheets.jpg" alt="Cutting a sheet into a strip"><figcaption>Cutting sheets into yarn</figcaption></figure>
+    <figure><img src="../build/images/yarn-balls.jpg" alt="Balls of sheet yarn"><figcaption>Sheet yarn</figcaption></figure>
+    <figure><img src="../build/images/box-front.jpg" alt="The electronics box" style="object-position: 50% 30%;"><figcaption>The box</figcaption></figure>
+  </div>
+
+  <footer>
+    <span>github.com/MariaGuerraSappho/charity-shop-sheets</span>
+    <span>CC BY-NC 4.0: credit Maria Sappho &amp; Colin Frank · Code: MIT · Performance photos © Brian Hartley</span>
+  </footer>
+</div>
+</body>
+</html>

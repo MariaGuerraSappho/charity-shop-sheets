@@ -1,0 +1,7 @@
+.DS_Store
+*.pkf
+*.sesx
+_Recorded/
+# Sound library is distributed as a release zip, not in git
+sounds/**/*.wav
+sounds/*.zip
